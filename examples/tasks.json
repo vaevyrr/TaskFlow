@@ -1,0 +1,1 @@
+{"historyFile":".taskflow-history.json","tasks":[{"name":"hello","command":"node -e \"console.log('hello from taskflow')\""},{"name":"second","command":"node -e \"console.log('second task')\"","dependsOn":["hello"]}]}
